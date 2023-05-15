@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plano de Estudos</title>
+  </head>
+  <style>
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 12px 42px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <h1 style="text-align: center">Plano de estudos</h1>
+      <img
+        src="./images/image-bonita.png"
+        alt="image-header"
+        height="300px"
+        width="350px"
+      />
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <img
+                src="./images/horario.png"
+                alt="horario-theader"
+                height="20px"
+                width="30px"
+              />
+            </th>
+            <th>SEGUNDA</th>
+            <th>TERÇA</th>
+            <th>QUARTA</th>
+            <th>QUINTA</th>
+            <th>SEXTA</th>
+            <th>SABADO</th>
+            <TH>DOMINGO</TH>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 - 12:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>descansar</td>
+            </tr>
+            <tr>
+                <td>12:00 - 13:00</td>
+                <td colspan="7">Almoçar</td>
+            </tr>
+            <tr >
+                <td>13:00 - 15:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="3">descansar</td>
+            </tr>
+            <tr>
+                <td>15:00 - 18:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>18:00 - 22:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>22:30 - 08:00</td>
+                <td colspan="7">dormir</td>
+            </tr>
+            <tfoot>
+               <td colspan="8"><img src="./images/growdev.png" alt="growdev-tfoot" height="80px" width="120px"></td>
+            </tfoot>
+        </tbody>
+      </table>
+      <footer>
+        <caption>
+            <small>Atividade Prática - Tabela cronograma de estudos - Growdev</small>
+        </caption>
+      </footer>
+    </main>
+  </body>
+</html>
